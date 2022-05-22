@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="616.0" prefWidth="662.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.client.Catalogcontrol">
+   <children>
+      <Button fx:id="homebutton" layoutY="-1.0" mnemonicParsing="false" onAction="#goHome" prefHeight="31.0" prefWidth="66.0" text="Home" />
+      <TableView fx:id="ProductTable" layoutY="74.0" prefHeight="296.0" prefWidth="452.0">
+        <columns>
+          <TableColumn fx:id="productName" prefWidth="113.0" text="Name" />
+          <TableColumn fx:id="productPrice" prefWidth="113.0" text="Price" />
+            <TableColumn fx:id="productKind" prefWidth="113.0" text="Kind" />
+        </columns>
+      </TableView>
+      <Button fx:id="showProductDetails" layoutY="370.0" mnemonicParsing="false" onAction="#showDetails" text="Show Details" />
+      <Button fx:id="editButton" layoutY="404.0" mnemonicParsing="false" onAction="#goEdit" prefHeight="26.0" prefWidth="84.0" text="Edit" />
+   </children>
+</AnchorPane>

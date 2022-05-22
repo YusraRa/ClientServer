@@ -66,7 +66,7 @@ public class Catalogcontrol implements Initializable {
     @FXML // fx:id="productKind"
     private TableColumn<Item, String> productKind; // Value injected by FXMLLoader
     public static Item selectedItem=new Item();
-    private DBConnect dc;
+    
 
 
     private  void initCol() {

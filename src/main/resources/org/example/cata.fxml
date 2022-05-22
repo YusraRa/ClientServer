@@ -6,16 +6,12 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-
-<HBox alignment="CENTER" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="org.example.client.catacontrol">
-   <AnchorPane prefHeight="350.0" prefWidth="350.0">
-      <Button fx:id="ShowButton" layoutX="94.0" layoutY="254.0" mnemonicParsing="false" onAction="#ShowCatalogue"
-              prefHeight="35.0" prefWidth="150.0" text="Go To Catalogue" textFill="#16e123"/>
-      <Label fx:id="welcomeText" layoutX="115.0" layoutY="110.0" style="-fx-alignment: yellow;" text="Welcome :)"
-             textAlignment="CENTER" textFill="#06e877">
+<HBox alignment="CENTER" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.client.catacontrol">
+   <AnchorPane prefHeight="350.0" prefWidth="350.0" style="-fx-background-color: #355c7d; -fx-background-radius: 69;">
+      <Button fx:id="ShowButton" layoutX="94.0" layoutY="254.0" mnemonicParsing="false" onAction="#ShowCatalogue" prefHeight="35.0" prefWidth="150.0" text="Go To Catalogue" underline="true" />
+      <Label fx:id="welcomeText" layoutX="115.0" layoutY="110.0" style="-fx-alignment: yellow;" text="Welcome :)" textAlignment="CENTER">
          <font>
-            <Font name="Bookman Old Style Bold" size="19.0"/>
+            <Font name="Bookman Old Style Bold" size="19.0" />
          </font>
       </Label>
    </AnchorPane>

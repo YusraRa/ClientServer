@@ -108,7 +108,7 @@ public class Server  extends AbstractServer {
                 } catch(IOException e) {
                     e.printStackTrace();
                 }
-                session.close(); // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ DELETE WHEN ERROR @@@@@@@@@@@@@@@@@
+//                session.close(); // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ DELETE WHEN ERROR @@@@@@@@@@@@@@@@@
                 break;
 
             case Message.updateItem:

@@ -6,21 +6,20 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 
-
 <HBox alignment="CENTER" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.client.Catalogcontrol">
    <children>
-      <AnchorPane prefHeight="616.0" prefWidth="662.0">
+      <AnchorPane prefHeight="616.0" prefWidth="662.0" style="-fx-background-color: lavender;">
          <children>
-            <Button fx:id="homebutton" layoutY="-1.0" mnemonicParsing="false" onAction="#goHome" prefHeight="31.0" prefWidth="66.0" text="Home" />
-            <TableView fx:id="ProductTable" layoutY="74.0" prefHeight="296.0" prefWidth="452.0">
+            <Button fx:id="homebutton" layoutY="-1.0" mnemonicParsing="false" onAction="#goHome" prefHeight="31.0" prefWidth="66.0" style="-fx-background-color: white;" text="Home" />
+            <TableView fx:id="ProductTable" layoutY="74.0" prefHeight="296.0" prefWidth="452.0" style="-fx-background-color: white;">
               <columns>
                 <TableColumn fx:id="productName" prefWidth="113.0" text="Name" />
                 <TableColumn fx:id="productPrice" prefWidth="113.0" text="Price" />
                   <TableColumn fx:id="productKind" prefWidth="113.0" text="Kind" />
               </columns>
             </TableView>
-            <Button fx:id="showProductDetails" layoutY="370.0" mnemonicParsing="false" onAction="#showDetails" text="Show Details" />
-            <Button fx:id="editButton" layoutY="404.0" mnemonicParsing="false" onAction="#goEdit" prefHeight="26.0" prefWidth="84.0" text="Edit" />
+            <Button fx:id="showProductDetails" layoutY="370.0" mnemonicParsing="false" onAction="#showDetails" style="-fx-background-color: white;" text="Show Details" />
+            <Button fx:id="editButton" layoutY="404.0" mnemonicParsing="false" onAction="#goEdit" prefHeight="26.0" prefWidth="84.0" style="-fx-background-color: white;" text="Edit" />
          </children>
       </AnchorPane>
    </children>
